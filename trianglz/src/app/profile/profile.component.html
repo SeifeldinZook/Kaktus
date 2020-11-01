@@ -1,0 +1,19 @@
+<section class="row" id="profile">
+  <app-sidenav class="col-2 pl-5"></app-sidenav>
+
+
+
+  <div id="dashboard" class="col-10 mt-5" *ngIf="_AuthenticationService.sideBarOpened">
+    <app-statistics></app-statistics>
+    <app-highlighted-drivers></app-highlighted-drivers>
+    <app-highlighted-segments></app-highlighted-segments>
+    <app-highlighted-comments></app-highlighted-comments>
+  </div>
+
+  <div id="dashboard" class="col-12 mt-5 pl-5" *ngIf="!_AuthenticationService.sideBarOpened">
+    <app-statistics></app-statistics>
+    <app-highlighted-drivers></app-highlighted-drivers>
+    <app-highlighted-segments></app-highlighted-segments>
+    <app-highlighted-comments></app-highlighted-comments>
+  </div>
+</section>

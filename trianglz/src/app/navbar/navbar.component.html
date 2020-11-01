@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand navbar-light bg-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand mr-5" href="#">
+      <img src="../../assets/logo_2020-10-25/logo.png" class="img-fluid">
+    </a>
+    
+    <div *ngIf="_AuthenticationService.isLoggedIn()" class="mr-auto ml-5">
+      <button id="rthArrow" class="btn contextBtn">
+        <img src="../../assets/growth/growth.png" class="Bitmap">
+        <span class="fnt10 fntBold fntgray mb-0 context">
+          Context
+        </span>
+        <img src="../../assets/chevron-down.svg" class="ml-1 img-fluid">
+      </button>
+    </div>
+
+    <div class="" id="navbarNav">
+      <ul class="navbar-nav">
+        <li *ngIf="!_AuthenticationService.isLoggedIn()" class="nav-item">
+          <a class="nav-link" routerLink="/login">Login</a>
+        </li>
+        <li *ngIf="!_AuthenticationService.isLoggedIn()" class="nav-item">
+          <a class="nav-link" routerLink="/register">Register</a>
+        </li>
+        <li *ngIf="_AuthenticationService.isLoggedIn()" class="nav-item d-flex align-items-center ">
+          <button class="bellImg"></button>
+        </li>
+        <li *ngIf="_AuthenticationService.isLoggedIn()" class="nav-item">
+          <div class="dropdown">
+            <button id="rthArrow" class="btn btn-secondary profileBtn">
+              <img src="../../assets/promoters/promoters.png" class="Profile-picture">
+              <span class="fnt11 fntNormal fntgray mb-0 subName">
+                Golden Eagle
+              </span>
+              <img src="../../assets/chevron-down.svg" class="ml-1 img-fluid">
+            </button>
+            <!-- <span class="fnt14 fntBold fntgrayX name">John Doe</span> -->
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,118 @@
+#login {
+  background-color: #F6F5F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+  background-image: url(/assets/images/auth-bg.svg);
+  background-position: 100% 100%;
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+}
+
+.size-4 {
+  font-size: 1.125rem!important;
+}
+
+.weight-700 {
+  font-weight: 700!important;
+}
+
+.alert {
+  position: relative;
+  padding: 0.3rem 1.25rem 0.3rem 0.7rem;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+}
+
+#myPasswordBtn {
+  border: none !important;
+}
+
+.formBox{
+  padding-top: 60px!important;
+  padding-bottom: 60px!important;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 0 9px 0 rgba(0,0,0,.06);
+  /* margin-left: auto!important;
+  margin-right: auto!important; */
+  background-color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-color {
+  background-color: #8c5fb4;
+  color: white;
+}
+
+#myPasswordBtn {
+  color: #8139c2!important;
+}
+
+.size-2 {
+  font-size: .875rem!important;
+}
+
+.text-primary {
+  color: #8139c2!important;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #8139c2;
+  background-color: transparent;
+}
+
+.size-2 {
+  font-size: .875rem!important;
+}
+.text-gray-2 {
+  color: #75849b!important;
+}
+
+input#emailInput {
+  background-image: url(../../assets/download.png);
+  background-position-y: center;
+  background-position-x: 10px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+}
+
+#passwordInput {
+  background-image: url(../../assets/passwordicon.png);
+  background-position-y: center;
+  background-position-x: 10px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+}
+
+.form-control {
+  display: block;
+  /* width: 100%; */
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #465061;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #e1e5e9;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+  color: #465061;
+  background-color: #fff;
+  border-color: #bf99e1;
+  outline: 0;
+  box-shadow: 0 0 8px -1px #8139c2;
+}

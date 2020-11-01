@@ -1,0 +1,223 @@
+/* *** Start repeated *** */
+
+#highlighted {
+  border-radius: 4px;
+  background-color: #fbfbfb;
+}
+
+#subHighlight {
+  /* width: 1239px; */
+  /* height: 370px; */
+  border-radius: 4px;
+  box-shadow: 0 0 9px 0 #eeeeee;
+  background-color: #ffffff;
+}
+
+.highBtn {
+  width: 104px;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px #e1e5e9;
+  background-color: #ffffff;
+  /* font-family: Lato; */
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8139c2;
+  border: none;
+}
+
+.fnt10 {
+  font-size: 10px;
+}
+
+.fnt11 {
+  font-size: 11px;
+}
+
+.fnt12 {
+  font-size: 12px;
+}
+
+.fnt13 {
+  font-size: 13px;
+}
+
+.fnt14 {
+  font-size: 14px;
+}
+
+.fnt15 {
+  font-size: 15px;
+}
+
+.fnt20 {
+  font-size: 20px;
+}
+
+.fntGreen {
+  color: #4ac979;
+}
+
+.fntRed {
+  color: #f75656;
+}
+
+.fntOrange {
+  color: #ffa93a;
+}
+
+.fntPurple {
+  color: #8139c2;
+}
+
+.fntgray {
+  color: #75849b;
+}
+
+.fntgrayX {
+  color: #465061;
+}
+
+.bg-Mypurple {
+  background-color: #8139c2;
+}
+
+.fntBold {
+  /* font-family: Lato; */
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-bottom: 1px;
+}
+
+.fntNormal {
+  /* font-family: Lato; */
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.textUnderline {
+  text-decoration: underline;
+}
+
+.img50 {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.img10 {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+}
+
+/* *** End repeated *** */
+
+.seeAll {
+  background-color: transparent;
+  /* font-family: Lato; */
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8139c2;
+  border: none;
+  text-decoration: underline;
+}
+
+.smallDiv {
+  border-radius: 4px;
+  border: solid 1px #e1e5e9;
+  background-color: #ffffff;
+  margin-right: 1px;
+}
+
+.oval {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 10px;
+  position: relative;
+}
+.less30 {background-image: linear-gradient(137deg, #0017ff 14%, #0096ff 85%);}
+.berlin {background-image: linear-gradient(137deg, #ff0000 14%, #a100a7 85%);}
+.cairo {background-image: linear-gradient(137deg, #ff8500 14%, #86a541 85%);}
+.NY {background-image: linear-gradient(137deg, #00a779 14%, #2bff00 85%);}
+.ND {background-image: linear-gradient(137deg, #66f1cb 14%, #00e8ff 85%);}
+.london {background-image: linear-gradient(137deg, #00a1ff 14%, #007aff 85%);}
+.NC {background-image: linear-gradient(137deg, #d6a9ff 14%, #00d0ff 85%);}
+.CR {background-image: linear-gradient(137deg, #4f00ff 14%, #ff6400 85%);}
+
+.textInOval {
+  width: 31px;
+  height: 19px;
+  /* font-family: Lato; */
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-45%, -50%);
+}
+
+.peopleImg {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  display: inline-block;
+  background-image: url('../../assets/profile.svg');
+  background-color: transparent;
+  background-size: contain;
+  margin-left: 10px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#rthArrow {
+  background-image: url(../../assets/chevron-right.svg);
+  border: 0px;
+  background-color: transparent;
+  background-size: contain;
+  width: 10px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mr--8 {
+  margin-right: -8px;
+}
+
+.bg-fade {
+  background-image: linear-gradient(to left, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  width: 121px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.itemContent {
+  width: 320px;
+  height: 80px;
+}

@@ -1,0 +1,69 @@
+#btnSide {
+  position: absolute;
+  top: -36px;
+  left: 9rem;
+  z-index: 999;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../../assets//close-menu_2020-10-26/close-menu.png');
+  width: 30px;
+  height: 23px;
+  background-color: transparent;
+}
+
+
+ng-sidebar .sidebar-heading {
+  width: 43px;
+  height: 15px;
+  /* font-family: Lato; */
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a0aabb;
+}
+
+ng-sidebar ul li {
+  /* width: 146px; */
+  width: 100%;
+  height: 37px;
+  border-radius: 4px;
+  background-color: #f6f5f4;
+  margin: auto;
+}
+
+
+
+ng-sidebar ul li a img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.text{
+  /* font-family: Lato; */
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #465061;
+}
+
+#insights .active{
+  background-color: #ffffff;
+  color: #8139c2;
+}
+
+
+#insights .active .text {
+  color: #8139c2 !important;
+}
+
+.downArrow {
+  width: 9px !important;
+}

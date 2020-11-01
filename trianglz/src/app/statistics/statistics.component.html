@@ -1,0 +1,163 @@
+<div class="row mx-0 pb-5">
+  <div class="col-md-8 col-sm-8 col-8 chart">
+    <div class="row h-100">
+      <div class="col-6 brdRt">
+        <h5 class="fntBold fntgrayX fnt14 float-left py-2">OVERAL SCORE</h5>
+        <button id="rthArrow" class="fntBold fntgrayX fnt14 float-right py-2">
+          <span>Details</span>
+          <img src="../../assets/chevron-right.svg" class="ml-1 img-fluid">
+        </button>
+
+        <div class="row w-100 mx-0 mt-5">
+          <div class="col-7 pl-0">
+            <div class="numColored">
+              <span class="GWR">
+                7.5
+              </span>
+            </div>
+            <div class=" position-relative">
+              <p class="fntNormal fntgrayX fnt12">
+                <span class="fntRed font-weight-bold">-0.5 below</span> the Technology Benchmark
+              </p>
+              <div class="progress">
+                <div class="progress-bar bar80 bg-Mypurple" role="progressbar" 
+                    style="width: 70%;" aria-valuenow="25" aria-valuemin="0" 
+                    aria-valuemax="100">
+                </div>
+              </div>
+              <p class="progressBarNum">
+                <span>0</span>
+                <span class="abs75">8.0</span>
+                <span class="abs95">10</span>
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-5 px-0">
+            <div class="d-inline-block">
+              <img src="../../assets/promoters/promoters.png" class="img28 fntGreen float-left">
+              <div class="float-left fnt12 fntBold">
+                <span class="fntGreen">49%</span>
+                <p class="fntgray">Promoters (195)</p>
+              </div>
+            </div>
+            <div class="my-2 d-inline-block">
+              <img src="../../assets/questions/questions.png" class="img28 fntGreen float-left">
+              <div class="float-left fnt12 fntBold">
+                <span class="fntgray">28%</span>
+                <p class="fntgray">Passive (113)</p>
+              </div>
+            </div>
+            <div class="d-inline-block">
+              <img src="../../assets/detractors/detractors.png" class="img28 fntGreen float-left">
+              <div class="float-right fnt12 fntBold float-left">
+                <span class="fntRed">23%</span>
+                <p class="fntgray">Detractors (92)</p>
+              </div>
+            </div>
+            <div class="fnt12 fntNormal">
+              <span class="fntGreen my-1">Good</span>
+              <p class="fntgray">
+                In the <span class="textUnderline">middle range</span> of the 
+                Technology sector
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 brdLf">
+        <h5 class="fntBold fntgrayX fnt14 float-left py-2">SCORE OVER TIME</h5>
+        <button id="rthArrow" class="fntBold fntgrayX fnt14 float-right py-2">
+          <span>Full Chart</span>
+          <img src="../../assets/chevron-right.svg" class="ml-1 img-fluid">
+        </button>
+
+        <div class="divChart mt-5">
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-4 col-4 pl-4">
+    <div id="participation" class="row">
+      <div class="col-md-12 col-12">
+        <h5 class="fntBold fntgrayX fnt14 float-left">PARTICIPATION</h5>
+        <button id="rthArrow" class="fntBold fntgrayX fnt14 float-right">
+          <span>Details</span>
+          <img src="../../assets/chevron-right.svg" class="ml-1 img-fluid">
+        </button>
+        <div class="p-2 row w-100 mx-0">
+          <div class="col-2 p-0">
+            <div class="progress-ring">
+              <svg>
+                <circle cx="20" cy="20" r="20"></circle>
+                <circle cx="20" cy="20" r="20"></circle>
+              </svg>
+              <div>
+                <h2 class="fntBold fntgrayX fntGreen fnt14">75%</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 pl-2 pr-0 position-relative">
+            <p class="fntBold fntgrayX">
+              <span class="fntGreen font-weight-bold">+0.2 above</span> the Benchmark
+              <br>(300/400 Employee)
+            </p>
+            <div class="progress">
+              <div class="progress-bar bar80 bg-Mypurple" role="progressbar" 
+                  style="width: 80%;" aria-valuenow="25" aria-valuemin="0" 
+                  aria-valuemax="100">
+              </div>
+            </div>
+            <p class="progressBarNum">
+              <span>0</span>
+              <span class="abs75">8.0</span>
+              <span class="abs95">10</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="communications" class="row mt-3">
+      <div class="col-md-12 col-12">
+        <h5 class="fntBold fntgrayX fnt14 float-left">COMMUNICATIONS</h5>
+        <button id="rthArrow" class="fntBold fntgrayX fnt14 float-right">
+          <span>Details</span>
+          <img src="../../assets/chevron-right.svg" class="ml-1 img-fluid">
+        </button>
+        <div class="p-3 row w-100 mx-0">
+          <div class="col-2 p-0">
+            <div class="progress-ring">
+              <svg>
+                <circle cx="20" cy="20" r="20"></circle>
+                <circle cx="20" cy="20" r="20"></circle>
+              </svg>
+              <div>
+                <h2 class="fntBold fntgrayX fntOrange fnt14">63%</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 pl-2 pr-0 position-relative">
+            <p class="fntBold fntgrayX">
+              <span class="fntRed font-weight-bold">-1.1 below</span> the Communications Benchmark
+            </p>
+            <div class="progress">
+              <div class="progress-bar limit70 bg-Mypurple" role="progressbar" 
+                  style="width: 63%;" aria-valuenow="25" aria-valuemin="0" 
+                  aria-valuemax="100">
+              </div>
+            </div>
+            <p class="progressBarNum">
+              <span>0</span>
+              <span class="abs65">7.0</span>
+              <span class="abs95">10</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

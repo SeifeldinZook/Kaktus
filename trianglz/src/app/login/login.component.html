@@ -1,0 +1,37 @@
+<section id="login">
+  <div class="row w-100">
+    <div class="col-lg-6 d-lg-block d-none">
+      <div>
+        <img src="../../assets/auth-1.svg" class="img-fluid">
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="formBox">
+        <div class="size-4 text-gray-2 weight-700 mb-4"> Sign in with email </div>
+        <form [formGroup]="loginFormGroup">
+            <div class="form m-auto">
+              <div class="input-group mr-sm-2">
+                <input id="emailInput" formControlName="email" type="email" 
+                placeholder="Enter Email" class="form-control" maxlength="20">
+              </div>
+
+              <div class="input-group mr-sm-2 mt-4">
+                <input id="passwordInput" formControlName="password" [type]="show ? 'text' : 'password'"  
+                placeholder="Enter password" class="form-control" maxlength="20">
+                <button id="myPasswordBtn" type="button" class="btn-link btn text-primary size-2 w-25" 
+                (click)="showPassword()">{{passwordState}}</button>                
+              </div>
+
+              <a type="button" class="btn-link btn float-right mt-2">Forgot password?</a>
+              <button class="btn btn-color w-100 mt-3">
+                  <span>SignIn</span>
+              </button>
+            </div>
+        </form>
+        <div class="form-group mb-0 mt-3 text-center">
+          <div class="size-2 text-gray-2"> If you forgot your email <a href="#"> Contct Us </a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

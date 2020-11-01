@@ -1,0 +1,204 @@
+/* *** Start repeated *** */
+#highlighted {
+  border-radius: 4px;
+  background-color: #fbfbfb;
+}
+
+#subHighlight {
+  /* width: 1239px; */
+  /* height: 370px; */
+  border-radius: 4px;
+  box-shadow: 0 0 9px 0 #eeeeee;
+  background-color: #ffffff;
+}
+
+.highBtn {
+width: 104px;
+height: 40px;
+border-radius: 4px;
+border: solid 1px #e1e5e9;
+background-color: #ffffff;
+/* font-family: Lato; */
+font-size: 14px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #8139c2;
+border: none;
+}
+
+.smallDiv {
+  border-radius: 4px;
+  border: solid 1px #e1e5e9;
+  background-color: #ffffff;
+  margin-right: 1px;
+}
+
+.fnt10 {font-size: 10px;}
+.fnt11 {font-size: 11px;} 
+.fnt12 {font-size: 12px;}
+.fnt13 {font-size: 13px;}
+.fnt14 {font-size: 14px;}
+.fnt15 {font-size: 15px;}
+.fnt20 {font-size: 20px;}
+.fntGreen {color: #4ac979;}
+.fntRed {color: #f75656;}
+.fntOrange {color: #ffa93a;}
+.fntPurple {color: #8139c2;}
+.fntgray {color: #75849b;}
+.fntgrayX {color: #465061;}
+.bg-Mypurple {background-color: #8139c2;}
+
+.fntBold {
+  /* font-family: Lato; */
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-bottom: 1px;
+}
+
+.fntNormal {
+  /* font-family: Lato; */
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.textUnderline {text-decoration: underline;}
+
+.img50{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.img10{
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+}
+/* *** End repeated *** */
+
+.bg-navbar {
+  background-color: white;
+}
+
+.navbar {
+  height: 7vh;
+  /* height: 50px; */
+}
+
+.mainFontColor {
+  color: #8139c2;
+}
+
+.nav-link {
+  color: #75849b!important;
+  font-size: .875rem!important;
+  font-weight: 600!important;
+  margin-right: 30px!important;
+}
+
+.nav-link:focus {
+  color: #8139c2!important;
+}
+
+.profileBtn {
+  height: 6vh;
+  position: relative;
+  padding: 0 5px;
+}
+
+.Profile-picture {
+  width: 40px;
+  height: 40px;
+  margin: 0px 100px 0px 5px;
+  /* border: solid 1px #e1e5e9; */
+}
+
+.subName {
+  position: absolute;
+  left: 60px;
+  top: 5px;
+}
+
+.subName::before {
+  content: " ";
+  background-image: url('../../assets/growth/growth.png');
+  font-size: 14px;
+  font-weight: bold;
+  color: #465061;
+  position: absolute;
+  top: -5px;
+  left: -25px;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: contain;
+}
+
+.subName::after {
+  content: "John Doe";
+  font-size: 14px;
+  font-weight: bold;
+  color: #465061;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 60px;
+} 
+
+#rthArrow {
+  border: 0px;
+  background-color: transparent;
+}
+
+.bellImg {
+  width: 21px;
+  height: 24px;
+  background-color: #a0aabb;
+  background-image: url('../../assets/bell.jpg');
+  background-size: contain;
+  background-position: center;
+  border: none;
+  margin-right: 10px;
+}
+
+.contextBtn {
+  height: 6vh;
+  position: relative;
+  padding: 0 5px;
+  border-radius: 4px;
+  border: solid 2px #f3e6ff !important;
+  background-color: #ffffff;
+}
+
+.Bitmap {
+  width: 30px;
+  height: 30px;
+  margin: 0px 135px 0px 5px;
+}
+
+.context {
+  position: absolute;
+  left: 45px;
+  top: 7px;
+}
+
+.context::after {
+  content: "Company: Golden Eagle";
+  font-size: 12px;
+  font-weight: bold;
+  color: #170641;
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  width: 128px;;
+}

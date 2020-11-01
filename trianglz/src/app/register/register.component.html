@@ -1,0 +1,388 @@
+<section id="register">
+  <div class="row w-100">
+    <div class="col-lg-6 d-lg-block d-none">
+      <div>
+        <img src="../../assets/auth-2.svg" class="img-fluid">
+      </div>
+      <div class="ml-5">
+        <div class="size-5 weight-700 text-gray-2 mb-2"> The leading employee engagement platform </div>
+        <div class="size-3 text-gray-2 d-flex align-items-top">
+            <i class="fa fa-check-circle text-primary mr-3 my-auto"></i>
+            <p class="my-auto">Maximise your engagement, retention, and productivity.</p>
+        </div>
+        <div class="size-3 text-gray-2 d-flex align-items-top">
+            <i class="fa fa-check-circle text-primary mr-3 my-auto"></i>
+            <p class="my-auto">Receive actionable insights - and identify areas for improvement - in real-time.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="formBox">
+        <div class="size-4 text-gray-2 weight-700 mb-4"> Create account with your email </div>
+        <form [formGroup]="loginFormGroup">
+          <div class="form m-auto">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group mr-sm-2">
+                  <input formControlName="fName" type="text" placeholder="First name"
+                    class="form-control ng-pristine ng-invalid ng-touched" maxlength="20">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="input-group mr-sm-2">
+                  <input formControlName="lName" type="text" placeholder="Last name"
+                    class="form-control ng-pristine ng-invalid ng-touched" maxlength="20">
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group mr-sm-2 my-3">
+              <input id="emailInput" formControlName="email" type="email" placeholder="Work Email" class="form-control"
+                maxlength="20">
+            </div>
+
+            <div class="ng-invalid ng-dirty ng-touched">
+              <div class="form-group">
+                  <div>
+                    <select formcontrolname="country_id" class="form-control input-item ng-dirty ng-valid ng-touched">
+                      <option value="null" disabled="" selected=""> Country </option>
+                      <option value="1"> Afghanistan </option>
+                      <option value="2"> Akrotiri </option>
+                      <option value="3"> Albania </option>
+                      <option value="4"> Algeria </option>
+                      <option value="5"> American samoa </option>
+                      <option value="6"> Andorra </option>
+                      <option value="7"> Angola </option>
+                      <option value="8"> Anguilla </option>
+                      <option value="9"> Antarctica </option>
+                      <option value="10"> Antigua and barbuda </option>
+                      <option value="11"> Argentina </option>
+                      <option value="12"> Armenia </option>
+                      <option value="13"> Aruba </option>
+                      <option value="14"> Ashmore and cartier islands </option>
+                      <option value="15"> Australia </option>
+                      <option value="16"> Austria </option>
+                      <option value="17"> Azerbaijan </option>
+                      <option value="18"> Bahamas, the </option>
+                      <option value="19"> Bahrain </option>
+                      <option value="20"> Bangladesh </option>
+                      <option value="21"> Barbados </option>
+                      <option value="22"> Bassas da india </option>
+                      <option value="23"> Belarus </option>
+                      <option value="24"> Belgium </option>
+                      <option value="25"> Belize </option>
+                      <option value="26"> Benin </option>
+                      <option value="27"> Bermuda </option>
+                      <option value="28"> Bhutan </option>
+                      <option value="29"> Bolivia </option>
+                      <option value="30"> Bosnia and herzegovina </option>
+                      <option value="31"> Botswana </option>
+                      <option value="32"> Bouvet island </option>
+                      <option value="33"> Brazil </option>
+                      <option value="34"> British indian ocean territory </option>
+                      <option value="35"> British virgin islands </option>
+                      <option value="36"> Brunei </option>
+                      <option value="37"> Bulgaria </option>
+                      <option value="38"> Burkina faso </option>
+                      <option value="39"> Burma </option>
+                      <option value="40"> Burundi </option>
+                      <option value="41"> Cambodia </option>
+                      <option value="42"> Cameroon </option>
+                      <option value="43"> Canada </option>
+                      <option value="44"> Cape verde </option>
+                      <option value="45"> Cayman islands </option>
+                      <option value="46"> Central african republic </option>
+                      <option value="47"> Chad </option>
+                      <option value="48"> Chile </option>
+                      <option value="49"> China </option>
+                      <option value="50"> Christmas island </option>
+                      <option value="51"> Clipperton island </option>
+                      <option value="52"> Cocos (keeling) islands </option>
+                      <option value="53"> Colombia </option>
+                      <option value="54"> Comoros </option>
+                      <option value="55"> Congo, democratic republic of the </option>
+                      <option value="56"> Congo, republic of the </option>
+                      <option value="57"> Cook islands </option>
+                      <option value="58"> Coral sea islands </option>
+                      <option value="59"> Costa rica </option>
+                      <option value="60"> Cote d'ivoire </option>
+                      <option value="61"> Croatia </option>
+                      <option value="62"> Cuba </option>
+                      <option value="63"> Cyprus </option>
+                      <option value="64"> Czech republic </option>
+                      <option value="65"> Denmark </option>
+                      <option value="66"> Dhekelia </option>
+                      <option value="67"> Djibouti </option>
+                      <option value="68"> Dominica </option>
+                      <option value="69"> Dominican republic </option>
+                      <option value="70"> Ecuador </option>
+                      <option value="71"> Egypt </option>
+                      <option value="72"> El salvador </option>
+                      <option value="73"> Equatorial guinea </option>
+                      <option value="74"> Eritrea </option>
+                      <option value="75"> Estonia </option>
+                      <option value="76"> Ethiopia </option>
+                      <option value="77"> Europa island </option>
+                      <option value="78"> Falkland islands (islas malvinas) </option>
+                      <option value="79"> Faroe islands </option>
+                      <option value="80"> Fiji </option>
+                      <option value="81"> Finland </option>
+                      <option value="82"> France </option>
+                      <option value="83"> French guiana </option>
+                      <option value="84"> French polynesia </option>
+                      <option value="85"> French southern and antarctic lands </option>
+                      <option value="86"> Gabon </option>
+                      <option value="87"> Gambia, the </option>
+                      <option value="88"> Gaza strip </option>
+                      <option value="89"> Georgia </option>
+                      <option value="90"> Germany </option>
+                      <option value="91"> Ghana </option>
+                      <option value="92"> Gibraltar </option>
+                      <option value="93"> Glorioso islands </option>
+                      <option value="94"> Greece </option>
+                      <option value="95"> Greenland </option>
+                      <option value="96"> Grenada </option>
+                      <option value="97"> Guadeloupe </option>
+                      <option value="98"> Guam </option>
+                      <option value="99"> Guatemala </option>
+                      <option value="100"> Guernsey </option>
+                      <option value="101"> Guinea </option>
+                      <option value="102"> Guinea-bissau </option>
+                      <option value="103"> Guyana </option>
+                      <option value="104"> Haiti </option>
+                      <option value="105"> Heard island and mcdonald islands </option>
+                      <option value="106"> Holy see (vatican city) </option>
+                      <option value="107"> Honduras </option>
+                      <option value="108"> Hong kong </option>
+                      <option value="109"> Hungary </option>
+                      <option value="110"> Iceland </option>
+                      <option value="111"> India </option>
+                      <option value="112"> Indonesia </option>
+                      <option value="113"> Iran </option>
+                      <option value="114"> Iraq </option>
+                      <option value="115"> Ireland </option>
+                      <option value="116"> Isle of man </option>
+                      <option value="117"> Israel </option>
+                      <option value="118"> Italy </option>
+                      <option value="119"> Jamaica </option>
+                      <option value="120"> Jan mayen </option>
+                      <option value="121"> Japan </option>
+                      <option value="122"> Jersey </option>
+                      <option value="123"> Jordan </option>
+                      <option value="124"> Juan de nova island </option>
+                      <option value="125"> Kazakhstan </option>
+                      <option value="126"> Kenya </option>
+                      <option value="127"> Kiribati </option>
+                      <option value="128"> Korea, north </option>
+                      <option value="129"> Korea, south </option>
+                      <option value="130"> Kuwait </option>
+                      <option value="131"> Kyrgyzstan </option>
+                      <option value="132"> Laos </option>
+                      <option value="133"> Latvia </option>
+                      <option value="134"> Lebanon </option>
+                      <option value="135"> Lesotho </option>
+                      <option value="136"> Liberia </option>
+                      <option value="137"> Libya </option>
+                      <option value="138"> Liechtenstein </option>
+                      <option value="139"> Lithuania </option>
+                      <option value="140"> Luxembourg </option>
+                      <option value="141"> Macau </option>
+                      <option value="142"> Macedonia </option>
+                      <option value="143"> Madagascar </option>
+                      <option value="144"> Malawi </option>
+                      <option value="145"> Malaysia </option>
+                      <option value="146"> Maldives </option>
+                      <option value="147"> Mali </option>
+                      <option value="148"> Malta </option>
+                      <option value="149"> Marshall islands </option>
+                      <option value="150"> Martinique </option>
+                      <option value="151"> Mauritania </option>
+                      <option value="152"> Mauritius </option>
+                      <option value="153"> Mayotte </option>
+                      <option value="154"> Mexico </option>
+                      <option value="155"> Micronesia, federated states of </option>
+                      <option value="156"> Moldova </option>
+                      <option value="157"> Monaco </option>
+                      <option value="158"> Mongolia </option>
+                      <option value="159"> Montserrat </option>
+                      <option value="160"> Morocco </option>
+                      <option value="161"> Mozambique </option>
+                      <option value="162"> Namibia </option>
+                      <option value="163"> Nauru </option>
+                      <option value="164"> Navassa island </option>
+                      <option value="165"> Nepal </option>
+                      <option value="166"> Netherlands </option>
+                      <option value="167"> Netherlands antilles </option>
+                      <option value="168"> New caledonia </option>
+                      <option value="169"> New zealand </option>
+                      <option value="170"> Nicaragua </option>
+                      <option value="171"> Niger </option>
+                      <option value="172"> Nigeria </option>
+                      <option value="173"> Niue </option>
+                      <option value="174"> Norfolk island </option>
+                      <option value="175"> Northern mariana islands </option>
+                      <option value="176"> Norway </option>
+                      <option value="177"> Oman </option>
+                      <option value="178"> Pakistan </option>
+                      <option value="179"> Palau </option>
+                      <option value="180"> Panama </option>
+                      <option value="181"> Papua new guinea </option>
+                      <option value="182"> Paracel islands </option>
+                      <option value="183"> Paraguay </option>
+                      <option value="184"> Peru </option>
+                      <option value="185"> Philippines </option>
+                      <option value="186"> Pitcairn islands </option>
+                      <option value="187"> Poland </option>
+                      <option value="188"> Portugal </option>
+                      <option value="189"> Puerto rico </option>
+                      <option value="190"> Qatar </option>
+                      <option value="191"> Reunion </option>
+                      <option value="192"> Romania </option>
+                      <option value="193"> Russia </option>
+                      <option value="194"> Rwanda </option>
+                      <option value="195"> Saint helena </option>
+                      <option value="196"> Saint kitts and nevis </option>
+                      <option value="197"> Saint lucia </option>
+                      <option value="198"> Saint pierre and miquelon </option>
+                      <option value="199"> Saint vincent and the grenadines </option>
+                      <option value="200"> Samoa </option>
+                      <option value="201"> San marino </option>
+                      <option value="202"> Sao tome and principe </option>
+                      <option value="203"> Saudi arabia </option>
+                      <option value="204"> Senegal </option>
+                      <option value="205"> Serbia and montenegro </option>
+                      <option value="206"> Seychelles </option>
+                      <option value="207"> Sierra leone </option>
+                      <option value="208"> Singapore </option>
+                      <option value="209"> Slovakia </option>
+                      <option value="210"> Slovenia </option>
+                      <option value="211"> Solomon islands </option>
+                      <option value="212"> Somalia </option>
+                      <option value="213"> South africa </option>
+                      <option value="214"> South georgia and the south sandwich islands </option>
+                      <option value="215"> Spain </option>
+                      <option value="216"> Spratly islands </option>
+                      <option value="217"> Sri lanka </option>
+                      <option value="218"> Sudan </option>
+                      <option value="219"> Suriname </option>
+                      <option value="220"> Svalbard </option>
+                      <option value="221"> Swaziland </option>
+                      <option value="222"> Sweden </option>
+                      <option value="223"> Switzerland </option>
+                      <option value="224"> Syria </option>
+                      <option value="225"> Taiwan </option>
+                      <option value="226"> Tajikistan </option>
+                      <option value="227"> Tanzania </option>
+                      <option value="228"> Thailand </option>
+                      <option value="229"> Timor-leste </option>
+                      <option value="230"> Togo </option>
+                      <option value="231"> Tokelau </option>
+                      <option value="232"> Tonga </option>
+                      <option value="233"> Trinidad and tobago </option>
+                      <option value="234"> Tromelin island </option>
+                      <option value="235"> Tunisia </option>
+                      <option value="236"> Turkey </option>
+                      <option value="237"> Turkmenistan </option>
+                      <option value="238"> Turks and caicos islands </option>
+                      <option value="239"> Tuvalu </option>
+                      <option value="240"> Uganda </option>
+                      <option value="241"> Ukraine </option>
+                      <option value="242"> United arab emirates </option>
+                      <option value="243"> United kingdom </option>
+                      <option value="244"> United states </option>
+                      <option value="245"> Uruguay </option>
+                      <option value="246"> Uzbekistan </option>
+                      <option value="247"> Vanuatu </option>
+                      <option value="248"> Venezuela </option>
+                      <option value="249"> Vietnam </option>
+                      <option value="250"> Virgin islands </option>
+                      <option value="251"> Wake island </option>
+                      <option value="252"> Wallis and futuna </option>
+                      <option value="253"> West bank </option>
+                      <option value="254"> Western sahara </option>
+                      <option value="255"> Yemen </option>
+                      <option value="256"> Zambia </option>
+                      <option value="257"> Zimbabwe </option>
+                    </select>
+                  </div>
+              </div>
+
+              <div class="form-group select-invalid">
+                  <div>
+                    <select
+                      formcontrolname="industry_category_id"
+                      class="form-control input-item ng-pristine ng-invalid ng-touched">
+                      <option value="null" disabled="" selected=""> Industry </option>
+                      <option value="1"> Banks </option>
+                      <option value="2"> Capital goods </option>
+                      <option value="3"> Commercial and professional services </option>
+                      <option value="4"> Communication services </option>
+                      <option value="5"> Consumer durables and apparel </option>
+                      <option value="6"> Consumer services </option>
+                      <option value="7"> Financials </option>
+                      <option value="8"> Education </option>
+                      <option value="9"> Energy </option>
+                      <option value="10"> Food </option>
+                      <option value="11"> Governments </option>
+                      <option value="12"> Manufactring </option>
+                      <option value="13"> Healthcare </option>
+                      <option value="14"> Insurance </option>
+                      <option value="15"> Materials </option>
+                      <option value="16"> Non profit </option>
+                      <option value="17"> Media and entertainment </option>
+                      <option value="18"> Pharmaceuticals, biotechnology, and life sciences </option>
+                      <option value="19"> Real estate </option>
+                      <option value="20"> Retailing </option>
+                      <option value="21"> Hospitality </option>
+                      <option value="22"> Semiconductors and semiconductor equipment </option>
+                      <option value="23"> Software and services </option>
+                      <option value="24"> Technology </option>
+                      <option value="25"> Transportation </option>
+                      <option value="26"> Utilities </option>
+                      <!---->
+                    </select>
+                  </div>
+              </div>
+
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" placeholder="Company name" formcontrolname="name"
+                    class="form-control ng-untouched ng-pristine ng-invalid">
+                </div>
+                <div class="col form-group select-invalid">
+                    <div class="">
+                      <select formcontrolname="company_size_id"
+                        class="form-control input-item ng-untouched ng-pristine ng-invalid">
+                        <option disabled="" selected="" value="null"> Company size </option>
+                        <option value="1"> 0-49 </option>
+                        <option value="2"> 50-100 </option>
+                        <option value="3"> 101-500 </option>
+                        <option value="4"> &gt; 500 </option>
+                      </select>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group mr-sm-2">
+              <input id="passwordInput" formControlName="password" [type]="show ? 'text' : 'password'"
+                placeholder="Create your password" class="form-control position-relative" maxlength="20">
+                <div class="eyeIcon" (click)="showPassword()">
+                  <span *ngIf="!this.show" class="fa fa-eye btn w-25"></span>
+                  <span *ngIf="this.show" class="fa fa-eye-slash btn w-25"></span>
+                </div>
+            </div>
+
+            <div class="form-group mb-0 mt-3 text-left">
+              <div class="size-2 text-gray-2"> By registering you agree to our <a href="#">privacy policy </a>, <br><a href="#">terms & conditions.</a> </div>
+            </div>
+
+            <button class="btn btn-color w-100 mt-3">
+              <span>Create Account</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
