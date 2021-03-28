@@ -4,7 +4,8 @@
       <img src="../../assets/logo_2020-10-25/logo.png" class="img-fluid">
     </a>
     
-    <div *ngIf="_AuthenticationService.isLoggedIn()" class="mr-auto ml-5">
+    <div *ngIf="_AuthenticationService.isLoggedIn()" class="mr-auto ml-5 d-flex align-items-center">
+      <button id="btnSide" (click)="_AuthenticationService._toggleSidebar()" style="border: none;"></button>
       <button id="rthArrow" class="btn contextBtn">
         <img src="../../assets/growth/growth.png" class="Bitmap">
         <span class="fnt10 fntBold fntgray mb-0 context">

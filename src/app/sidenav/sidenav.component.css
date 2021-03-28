@@ -1,4 +1,4 @@
-#btnSide {
+/* #btnSide {
   position: absolute;
   top: -36px;
   left: 9rem;
@@ -9,10 +9,10 @@
   width: 30px;
   height: 23px;
   background-color: transparent;
-}
+} */
 
 
-ng-sidebar .sidebar-heading {
+.ng-sidebar .sidebar-heading {
   width: 43px;
   height: 15px;
   /* font-family: Lato; */
@@ -25,7 +25,7 @@ ng-sidebar .sidebar-heading {
   color: #a0aabb;
 }
 
-ng-sidebar ul li {
+.ng-sidebar ul li {
   /* width: 146px; */
   width: 100%;
   height: 37px;
@@ -36,7 +36,7 @@ ng-sidebar ul li {
 
 
 
-ng-sidebar ul li a img {
+.ng-sidebar ul li a img {
   width: 16px;
   height: 16px;
   object-fit: contain;
@@ -66,4 +66,8 @@ ng-sidebar ul li a img {
 
 .downArrow {
   width: 9px !important;
+}
+
+.nav-link:focus {
+  outline: none !important;
 }

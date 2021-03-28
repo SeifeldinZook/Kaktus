@@ -202,3 +202,24 @@ border: none;
   left: 0px;
   width: 128px;;
 }
+
+
+#btnSide {
+  /* position: absolute;
+  top: -36px;
+  left: 9rem;
+  z-index: 999; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../../assets//close-menu_2020-10-26/close-menu.png');
+  width: 30px;
+  height: 23px;
+  background-color: transparent;
+  margin-right: 20px;
+}
+
+button:focus {
+  /* outline: 1px dotted; */
+  /* outline: 5px auto -webkit-focus-ring-color; */
+  outline: none !important;
+}
