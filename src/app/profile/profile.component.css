@@ -10,6 +10,9 @@
   display: flex;
 }
 
-
+#dashboard {
+  margin-top: 43px;
+  width: 100%;
+}
 
 

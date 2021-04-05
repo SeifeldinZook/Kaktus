@@ -10,11 +10,9 @@ export class AuthenticationService {
 
   constructor(private router: Router, private location: Location) {}
 
-  // public _opened: boolean = true;
   public sideBarOpened:boolean = true;
   
   public _toggleSidebar() {
-    // this._opened = !this._opened;
     this.sideBarOpened = !this.sideBarOpened
   }
 

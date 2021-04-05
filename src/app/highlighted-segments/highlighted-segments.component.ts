@@ -17,16 +17,26 @@ export class HighlightedSegmentsComponent implements OnInit {
   ngOnInit() {
     $(document).ready(function() {
       $("#owl-example1").owlCarousel({
-        margin:10,
-        items:3.5,
-        autoplay:true,
-        autoplayTimeout:1000,
+        items:1,
+        autoWidth: true,
+        loop:true,
+        margin:15,
+        autoplay:true,  
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        mergeFit: false,
+        smartSpeed: 500
       });
       $("#owl-example2").owlCarousel({
-        margin:10,
-        items:3.5,
-        autoplay:true,
-        autoplayTimeout:1000,
+        items:1,
+        autoWidth: true,
+        loop:true,
+        margin:15,
+        autoplay:true,  
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        mergeFit: false,
+        smartSpeed: 500
       });    
     }
   )}
